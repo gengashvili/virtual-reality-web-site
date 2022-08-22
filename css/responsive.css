@@ -1,0 +1,228 @@
+@media only screen and (max-width: 1200px) {
+    /*general*/
+    .sec2,.sec3,.sec4,.sec5,.sec6,.sec7,footer{
+        padding: 40px;
+    }
+    .sec2-content,.sec2-heading,.sec3-content,.sec4-content,.sec5-content,.sec7-content{
+        width: 90%;
+    }
+    /*section 1*/
+    .sec1-box:first-child{
+        padding: 6% 10px 10px 6%;
+    }
+    .sec1-box p{
+        font-size: 22px;
+        margin: 12px 0 12px 0;
+    }
+    .sec1-box button{
+        width: 180px;
+        height: 42px;
+    }
+    .sec1-box h2{
+        font-size: 40px;
+    }
+    /*section 2*/
+    .sec2-heading h2{
+        font-size: 40px;
+    }
+    .sec2-box{
+        width: 32%;
+        margin: 15px 6px 15px 6px;
+        padding: 1%;
+    }
+    /*section 4*/
+    .sec4-heading h2{
+        font-size: 40px
+    }
+    /*section 5*/
+    .sec5-box img{
+        width: 100%;
+        max-height: 100%;
+    }
+    .sec5-box:first-child{
+        padding: 10px;
+    }
+    .sec5-box h2{
+        font-size: 30px;
+        margin: 10px 0 10px 0;
+    }
+    .sec5-box p{
+        font-size: 20px;
+        margin-bottom: 18px;
+    }
+    /*section 6*/
+    .sec6-box{
+        margin-left: 12%;
+        padding: 30px;
+    }
+    /*section 7*/
+    .sec7-box h2{
+        font-size: 25px;
+        margin-bottom: 12px;
+    }
+    .sec7-box p{
+        font-size: 20px;
+    }
+    /*footer*/
+    footer h2{
+        font-size: 35px;
+    }
+    .footer-icons i{
+        font-size: 20px;
+        margin: 6px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    /*general*/
+    .sec2,.sec3,.sec4,.sec5,.sec6,.sec7,footer{
+        padding: 20px 0 20px 0;
+    }
+    .sec2-content,.sec2-heading,.sec3-content,.sec4-content,.sec5-content,.sec7-content{
+        width: 95%;
+    }
+    /*section 1*/
+    .sec1-box:first-child{
+        padding: 3% 10px 10px 3%;
+    }
+    .sec1-box p{
+        font-size: 18px;
+        margin: 10px 0 10px 0;
+    }
+    .sec1-box button{
+        width: 160px;
+        height: 40px;
+    }
+    .sec1-box h2{
+        font-size: 35px;
+    }
+    /*section 2*/
+    .sec2-heading h2{
+        font-size: 35px;
+    }
+    .sec2-box p{
+        font-size: 18px;
+    }
+    /*section 3*/
+    .sec3 p{
+        font-size: 18px;
+    }
+    .sec3-box:nth-child(2){
+        margin-left: 10px;
+    }
+    .sec3-box img{
+        width: 100%;
+        height: 100%;
+    }
+    .sec3-line{
+        margin: 12px 0 0 0;
+    }
+    .sec3 i{
+        font-size: 30px;
+        margin-right: 18px;
+        padding: 15px;
+    }
+    .sec3-miniBox{
+        margin: 15px 0 15px 0;
+    }
+    .sec3-box h3{
+        color: #654AFF;
+        margin-top: 40px;
+    }
+    .sec3-box h2{
+        font-size: 35px;
+        margin: 12px 0 12px 0;
+    }
+    /*section 4*/
+    .sec4-box{
+        padding: 18px;
+        margin-top: 18px;
+     }
+     .sec4-box p,.sec4-heading h3{
+         font-size: 18px;
+     }
+     .sec4-heading h3{
+         margin: 12px 0 12px 0;
+     }
+     .sec4-heading h2{
+         font-size: 35px;
+     }
+     .sec4-box h3{
+         font-size: 50px;
+     }
+     /*section 5*/
+     .sec5 i{
+        font-size: 30px;
+        padding: 15px;
+    }
+    .sec5-box h2{
+        font-size: 30px;
+        margin: 12px 0 12px 0;
+    }
+    .sec5-box p{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .sec5 button,.sec6 button{
+        padding: 8px;
+        font-size: 20px;
+    }
+    /*section 6*/
+    .sec6-box{
+        margin-left: 10%;
+        padding: 28px;
+    }
+    .sec6 h2{
+        font-size: 40px;
+        margin: 12px 0 12px 0;
+    }
+    .sec6 h3{
+        font-size: 28px;
+    }
+    /*section 7*/
+    .sec7-box h2{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .sec7-box p{
+        font-size: 18px;
+    }
+     /*footer*/
+     footer h2{
+        font-size: 30px;
+    }
+    .footer-icons i{
+        font-size: 18px;
+        margin: 4px;
+    }
+}
+@media only screen and (max-width:600px) {
+    /*general*/
+    .sec1-content,.sec2-content,.sec3-content,.sec5-content,.sec7-content{
+        display: block;
+    }
+    .sec1-box,.sec2-box,.sec3-box,.sec5-box,.sec7-box{
+        width: 90%;
+        margin:auto;
+    }
+
+    /*section 2*/
+    .sec2-box{
+        margin-top: 10px;
+    }
+    /*section 6*/
+    .sec6-box{
+       margin: auto;
+    }
+    .sec6 h2{
+        font-size: 35px;
+        margin: 12px 0 12px 0;
+    }
+    .sec6 h3{
+        font-size: 22px;
+    }
+    .sec5 button,.sec6 button{
+        padding: 6px;
+        font-size: 18px;
+    }
+}
